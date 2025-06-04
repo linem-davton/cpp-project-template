@@ -1,0 +1,63 @@
+# Build folders
+build/
+build-*/  # For CMake presets with custom build dirs
+out/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ninja build files
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Visual Studio files (optional if cross-platform)
+*.sln
+*.vcxproj*
+*.user
+*.obj
+*.pdb
+
+# macOS files
+.DS_Store
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Executables & binaries
+*.exe
+*.out
+*.app
+*.a
+*.so
+*.dylib
+
+# Coverage and test artifacts
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# clangd index
+.clangd/
+.cache/
+
+# Conan
+conan.lock
+conanbuild/
+
+# vcpkg
+vcpkg_installed/
+CMakeUserPresets.json  # Local overrides not for sharing
+
+# IDEs
+.vscode/
+.idea/
+
