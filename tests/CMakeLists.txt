@@ -1,6 +1,6 @@
 # first test
 add_executable(test_hello test_hello.cpp)
-target_link_libraries(test_hello PRIVATE matrices GTest::gtest_main)
+target_link_libraries(test_hello PRIVATE GTest::gtest_main)
 
 # second test
 
