@@ -1,3 +1,4 @@
+# Use of Google Bechmark - https://github.com/google/benchmark
 find_package(benchmark REQUIRED)
 
 # Benchmark executables
