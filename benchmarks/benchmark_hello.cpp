@@ -8,3 +8,4 @@ static void BM_HelloWorld(benchmark::State& state) {
     }
 }
 BENCHMARK(BM_HelloWorld)->Arg(100)->Arg(200)->Arg(500)->Unit(benchmark::kMicrosecond); // values for N
+BENCHMARK_MAIN();
